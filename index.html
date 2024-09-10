@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Adicione seu contato de forma automatizada!</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="lista-h1">Lista de contatos</h1>
+            <h1 class="ebac-h1">EBAC</h1>
+            <form>
+                <input type="text" name="nome" id="nome" required placeholder="Nome">
+                <input type="number" name="contato" id="contato" required placeholder="Contato" min="0" max="10">
+                <div class="divButton">
+                    <button id="buttonCadastro" type="submit">Cadastrar</button>
+                </div>
+            </form>
+            <div class="divTable">
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nome </th>
+                            <th>Contato </th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpoTabela">
+                        <tr>
+                            <td id="nome-valor">Daniel</td>
+                            <td id="contato-valor">Contato 1</td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

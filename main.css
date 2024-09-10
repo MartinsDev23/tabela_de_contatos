@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(198, 143, 250);
+}
+
+.lista-h1 {
+    display: flex;
+    align-items: center;
+    margin-top: -210px;
+    justify-content: center;
+}
+
+.ebac-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 460px;
+}
+
+input {
+    width: 130px;
+    margin-left: 30px;
+    border-width: 2px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+    flex-direction: column;
+    border-style: solid ;
+    border-color: rgb(128, 135, 140);
+    border-width: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.divTable {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 20px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+
+td {
+    border-bottom: 1px solid rgb(205, 199, 199);
+}
+
+.divTable tbody {
+    text-align: center;
+}
+
+button {
+    background-color:rgb(172, 95, 244);
+    width: 80px;
+    height: 20px;
+    border-color: solid purple;
+    cursor: pointer;
+}
+
+.divButton {
+    width: 80px;
+    margin-left: 30px;
+} 
